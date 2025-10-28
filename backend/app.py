@@ -6,6 +6,7 @@ from pydantic import BaseModel, ValidationError, Field
 from typing import Optional
 from database import init_db, insert_task, get_task, request_cancel, list_tasks
 
+
 app = Flask(__name__)
 init_db()
 
